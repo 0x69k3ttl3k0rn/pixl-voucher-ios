@@ -42,6 +42,8 @@ struct MainView: View {
                 }
             }
             .padding(20)
+            .frame(maxWidth: 700)
+            .frame(maxWidth: .infinity)
         }
         .background(PixlTheme.background.ignoresSafeArea())
         .overlay {
